@@ -17,7 +17,9 @@ const Header = () => {
       </div>
       <div className="flex items-center space-x-4">
         <Toggle />
-        <AiFillGithub className="text-2xl text-dark-300" />
+        <a href="https://github.com/abbinizar/repeat-after-me.git">
+          <AiFillGithub className="text-2xl text-dark-300" />
+        </a>
       </div>
     </div>
   );
